@@ -15,7 +15,7 @@ html {
   }
   .hero-section{
       margin-top: 46px !important;
-      background-image: url("C:/Users/pc/Desktop/ilyas.jpg");
+      background-image: url("ilyas.jpg");
       background-repeat: no-repeat;
       box-sizing: border-box;
   }
@@ -178,7 +178,7 @@ html {
   
   @media screen and (max-width: 1024px) {
       .hero-section{
-          background-image: url("C:/Users/pc/Desktop/ilyas.jpg");
+          background-image: url("ilyas.jpg");
           background-repeat: no-repeat;
       }
       .products{
@@ -215,7 +215,7 @@ html {
           height: 600px;
       }
      .hero-section{
-      background-image: url("C:/Users/pc/Desktop/ilyas.jpg");
+      background-image: url("ilyas.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       margin: auto;
@@ -256,7 +256,7 @@ html {
       
       .hero-section{
           margin-top: 50px;
-          background-image: url("C:/Users/pc/Desktop/ilyas2.jpg");
+          background-image: url("ilyas2.jpg");
           background-repeat: no-repeat;
       }
       .hero-section-main{
@@ -350,7 +350,7 @@ html {
       }
       .hero-section{
           margin-top: 50px;
-          background-image: url("C:/Users/pc/Desktop/ilyas2.jpg") !important;
+          background-image: url("ilyas2.jpg") !important;
           background-repeat: no-repeat;
           overflow-x: hidden;
           overflow-y: scroll;    
