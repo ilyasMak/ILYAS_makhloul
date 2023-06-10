@@ -4,7 +4,6 @@
     margin-left: -13rem;
     border : 4px solid black;
     transition: all 2s ;
-    float: left;
   }
   .cer:hover{
     z-index : 80 ;
