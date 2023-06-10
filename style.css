@@ -182,6 +182,8 @@ html {
   /*medium screens - Laptops*/
   
   @media screen and (max-width: 1024px) {
+      #CV{
+    text-decoration: none;}
       .skillP{
         display: inline;
     }
@@ -202,6 +204,8 @@ html {
   }
   
   @media screen and (min-width: 1200px) {
+      #CV{
+    text-decoration: none;}
       .new-arrived-products{
           width:80% !important;
       }
@@ -241,6 +245,8 @@ html {
   
   /*Small screens - tablets*/
   @media screen and (min-width:481px) and (max-width: 768px) {
+      #CV{
+    text-decoration: none;}
       .feedback{
           width:90%;
           margin: auto    
@@ -350,6 +356,8 @@ html {
   
   /*Extra small screens - phones*/
   @media screen and (max-width: 480px) {
+      #CV{
+    text-decoration: none;}
       .hero-section-main{
           background-color: rgba(22, 22, 22, 0.7);
           display: flex;
