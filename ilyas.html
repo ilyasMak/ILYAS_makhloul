@@ -216,43 +216,43 @@
    <div>
     <p class="w3-wide">Programmation C/C++ </p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+      <div class="w3-dark-grey" id="skil1" style="height:28px;width:70%"></div>
     </div>
     <p class="w3-wide">Programmation Java</p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+      <div class="w3-dark-grey" id="skil2" style="height:28px;width:95%"></div>
     </div>
     <p class="w3-wide">Programmation Python </p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:20%"></div>
+      <div class="w3-dark-grey" id=skil3" style="height:28px;width:20%"></div>
     </div><br>  </div>
 
     <div>
         <p class="w3-wide">Développement WEB HTML,CSS,et JS </p>
         <div class="w3-white">
-          <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+          <div class="w3-dark-grey" class="skil4" style="height:28px;width:60%"></div>
         </div>
         <p class="w3-wide">Bases des Données MySQL ,PHP </p>
         <div class="w3-white">
-          <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+          <div class="w3-dark-grey" id="skil5" style="height:28px;width:50%"></div>
         </div>
         <p class="w3-wide">Programmation MATLAB </p>
         <div class="w3-white">
-          <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+          <div class="w3-dark-grey" id="skil6" style="height:28px;width:80%"></div>
         </div><br>  </div>
 
     <div>
         <p class="w3-wide">Programmation Shell </p>
         <div class="w3-white">
-          <div class="w3-dark-grey" style="height:28px;width:45%"></div>
+          <div class="w3-dark-grey" id="skil7" style="height:28px;width:45%"></div>
         </div>
         <p class="w3-wide">Conception CATIA 3D </p>
         <div class="w3-white">
-          <div class="w3-dark-grey" style="height:28px;width:35%"></div>
+          <div class="w3-dark-grey" id="skil8" style="height:28px;width:35%"></div>
         </div>
         <p class="w3-wide">Simulation Packet Tracer (Cisco) </p>
         <div class="w3-white">
-          <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+          <div class="w3-dark-grey" class="skil4" style="height:28px;width:60%"></div>
         </div><br>  </div>
 
 
@@ -444,6 +444,83 @@ Diplômé en Génie Informatique ,ENSAF
             x.className = x.className.replace(" w3-show", "");
           }
         }
+        
+        
+          window.addEventListener('scroll', function() {
+  var s1 = document.getElementById('skil1');
+  var s2 = document.getElementById('skil2');
+  var s3= document.getElementById('skil3');
+var s5= document.getElementById('skil5');
+ var s6 = document.getElementById('skil6');
+    var s7 = document.getElementById('skil7');  
+     var s8 = document.getElementById('skil8');                                                        
+  var rect = animationDiv.getBoundingClientRect();
+
+  var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+  var isVisible = rect.top <= windowHeight && rect.bottom >= 0;
+
+  if (isVisible && !animationDiv.classList.contains('animated')) {
+    animationDiv.classList.add('animated');
+    s1.style.animation = 'a 3s';
+    s2.style.animation = 'b 3s';
+    s3.style.animation = 'c 3s'; 
+    s5.style.animation = 'e 3s'; 
+    s6.style.animation = 'f 3s'; 
+    s7.style.animation = 'g 3s';  
+    s8.style.animation = 'h 3s';                                                         
+  }
+});
+        
+        
+        
+        
     </script>
+     <style>
+       @keyframes a {
+    0%{  width : 0%; }
+    100% {width : 70% ;}
+    
+  }
+
+  @keyframes b {
+    0%{  width : 0%; }
+    100% {width : 95% ;}
+    
+  }                                                     
+   @keyframes c {
+    0%{  width : 0%; }
+    100% {width : 20% ;}
+    
+  }
+
+  @keyframes d {
+    0%{  width : 0%; }
+    100% {width : 60% ;}
+    
+  }       
+   @keyframes e {
+    0%{  width : 0%; }
+    100% {width : 50% ;}
+    
+  }
+
+  @keyframes f {
+    0%{  width : 0%; }
+    100% {width : 80% ;}
+    
+  }                                                         
+   @keyframes g {
+    0%{  width : 0%; }
+    100% {width : 45% ;}
+    
+  }
+
+  @keyframes h {
+    0%{  width : 0%; }
+    100% {width : 35% ;}
+    
+  }                                                         
+                                                            
+                                                            </style>
 </body>
 </html>
