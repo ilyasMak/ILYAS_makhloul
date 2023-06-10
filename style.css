@@ -1,4 +1,4 @@
-  .w3-quarter:hover span {
+  .p:hover {
     color: orange; /* Changer la couleur de survol ici */
     cursor: pointer; /* Changer le curseur en pointeur */
   }
