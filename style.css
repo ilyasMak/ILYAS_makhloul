@@ -177,6 +177,10 @@ html {
   /*medium screens - Laptops*/
   
   @media screen and (max-width: 1024px) {
+      .skillP{
+        display: inline;
+        justify-content: space-between;
+    }
       .hero-section{
           background-image: url("ilyas.jpg");
           background-repeat: no-repeat;
