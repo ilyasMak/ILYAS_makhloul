@@ -1,3 +1,29 @@
+.cer{
+    border-radius: 32px ;
+    position: relative;
+    margin-left: -13rem;
+    border : 4px solid black;
+    transition: all 2s ;
+    float: left;
+  }
+  .cer:hover{
+    z-index : 80 ;
+    height :240px;
+     width :auto ;
+     border : 4px solid orange;
+    
+  }
+  
+  #imcer{
+    height :370px;
+    padding : 3rem 0rem 1rem 1rem  ; 
+    margin-left: 6rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center
+  }
+  
+
 button a{
     text-decoration: none;}
 .skillP{
@@ -243,7 +269,29 @@ html {
   
   /*Small screens - tablets*/
   @media screen and (min-width:481px) and (max-width: 768px) {
-   
+    #imcer{
+        position: relative;
+        display: inline-block;
+        top : -5rem ; 
+        height : 800px ; 
+      }
+      .cer{
+        position: relative;
+        margin-left: -20%;
+        height : 240px ;
+      width : auto ; 
+      margin-bottom : -4rem ; 
+      
+      }
+      .cer:hover{
+        z-index : 100 ; 
+       
+        height : 260px ;
+        width : auto; 
+        transition: all 2s ;
+      }
+      
+      
       .feedback{
           width:90%;
           margin: auto    
@@ -353,6 +401,27 @@ html {
   
   /*Extra small screens - phones*/
   @media screen and (max-width: 480px) {
+       #imcer{
+        position: relative;
+        display: inline-block;
+        top : -5rem ; 
+        height : 800px ; 
+      }
+      .cer{
+        position: relative;
+        margin-left: -20%;
+        height : 240px ;
+      width : auto ; 
+      margin-bottom : -4rem ; 
+      
+      }
+      .cer:hover{
+        z-index : 100 ; 
+       
+        height : 260px ;
+        width : auto; 
+        transition: all 2s ;
+      }
       
       .hero-section-main{
           background-color: rgba(22, 22, 22, 0.7);
