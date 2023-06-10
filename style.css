@@ -275,6 +275,11 @@ html {
   
   /*Small screens - tablets*/
   @media screen and (min-width:481px) and (max-width: 768px) {
+      .product-left-side:hover img {
+    /* Styles au survol de la classe parent */
+    /* Vous pouvez ajouter les styles souhaités ici */
+    content: url(pn.jpg); /* Changer l'image lors du survol */
+  }
     #imcer{
         position: relative;
         display: inline-block;
@@ -408,6 +413,11 @@ html {
   
   /*Extra small screens - phones*/
   @media screen and (max-width: 480px) {
+       .product-left-side:hover img {
+    /* Styles au survol de la classe parent */
+    /* Vous pouvez ajouter les styles souhaités ici */
+    content: url(pn.jpg); /* Changer l'image lors du survol */
+  }
        body {
         overflow-x: hidden; /* Masque le défilement horizontal */
         overflow-y: auto; /* Affiche le défilement vertical si nécessaire */
