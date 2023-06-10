@@ -1,3 +1,7 @@
+  .w3-quarter:hover span {
+    color: orange; /* Changer la couleur de survol ici */
+    cursor: pointer; /* Changer le curseur en pointeur */
+  }
 .cer{
     border-radius: 32px ;
     position: relative;
