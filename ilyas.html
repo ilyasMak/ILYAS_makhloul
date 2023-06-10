@@ -295,14 +295,14 @@ Diplômé en Génie Informatique ,ENSAF
 <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
     <div class="w3-quarter w3-section">
       <span class="w3-xlarge">Développement Web</span><br>
-      ▸ un portFolio en utilisant HTML CSS et JavaScript 
+    <a href="#"> ▸ un portFolio en utilisant HTML CSS et JavaScript  </a>
     </div>
     <div class="w3-quarter w3-section">
       <span class="w3-xlarge">Développement des Jeux</span><br>
       <ul>
-        ▸Serpent en Jave <br>
-        ▸X-O Blue-Red en Java <br>
-        ▸Tetris en Java
+      <a href="#">   ▸Serpent en Jave <br> </a>
+      <a href="#">    ▸X-O Blue-Red en Java <br> </a>
+      <a href="#">   ▸Tetris en Java </a>
       </ul>
     </div>
     <div class="w3-quarter w3-section">
@@ -446,33 +446,6 @@ Diplômé en Génie Informatique ,ENSAF
         }
         
         
-          window.addEventListener('scroll', function() {
-  var s1 = document.getElementById('skil1');
-  var s2 = document.getElementById('skil2');
-  var s3= document.getElementById('skil3');
-  var s4= document.getElementsByClassName('skil3');                                                         
-var s5= document.getElementById('skil5');
- var s6 = document.getElementById('skil6');
-    var s7 = document.getElementById('skil7');  
-     var s8 = document.getElementById('skil8');                                                        
-  var rect = animationDiv.getBoundingClientRect();
-
-  var windowHeight = window.innerHeight || document.documentElement.clientHeight;
-  var isVisible = rect.top <= windowHeight && rect.bottom >= 0;
-
-  if (isVisible && !animationDiv.classList.contains('animated')) {
-    animationDiv.classList.add('animated');
-    s1.style.animation = 'a 3s';
-    s2.style.animation = 'b 3s';
-    s3.style.animation = 'c 3s'; 
-     s4[0].style.animation = 'd 3s';    
-       s4[4].style.animation = 'd 3s';                                                       
-    s5.style.animation = 'e 3s'; 
-    s6.style.animation = 'f 3s'; 
-    s7.style.animation = 'g 3s';  
-    s8.style.animation = 'h 3s';                                                         
-  }
-});
         
         
         
@@ -522,7 +495,12 @@ var s5= document.getElementById('skil5');
     0%{  width : 0%; }
     100% {width : 35% ;}
     
-  }                                                         
+  }               
+   ul a {text-decoration: none; /* Supprimer le soulignement */}                                                         
+   ul a:hover {
+    color: orange; /* Changer la couleur de survol ici */
+    
+  }
                                                             
                                                             </style>
 </body>
