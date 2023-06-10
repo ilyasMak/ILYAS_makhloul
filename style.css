@@ -3,6 +3,10 @@
     display: flex;
     justify-content: space-between;
 }
+ .w3-wide{
+    font-family: Tahoma;
+    letter-spacing: normal;
+  }
 
 
 html {
