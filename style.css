@@ -401,12 +401,16 @@ html {
   
   /*Extra small screens - phones*/
   @media screen and (max-width: 480px) {
+       body {
+        overflow-x: hidden; /* Masque le défilement horizontal */
+        overflow-y: auto; /* Affiche le défilement vertical si nécessaire */
+        width : 100% ; 
+      }
        #imcer{
         position: relative;
         display: inline-block;
         top : -5rem ; 
         height : 800px ; 
-           margin-left: 6rem;
       }
       .cer{
         position: relative;
@@ -414,6 +418,7 @@ html {
         height : 210px ;
       width : auto ; 
       margin-bottom : -4rem ; 
+          margin-right: 12rem ;
       
       }
       .cer:hover{
