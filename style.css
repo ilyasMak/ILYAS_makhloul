@@ -278,7 +278,7 @@ html {
       .product-left-side:hover img {
     /* Styles au survol de la classe parent */
     /* Vous pouvez ajouter les styles souhaités ici */
-    content: url(pn.jpg); /* Changer l'image lors du survol */
+    content: url(11.jpg); /* Changer l'image lors du survol */
   }
     #imcer{
         position: relative;
@@ -416,7 +416,7 @@ html {
        .product-left-side:hover img {
     /* Styles au survol de la classe parent */
     /* Vous pouvez ajouter les styles souhaités ici */
-    content: url(pn.jpg); /* Changer l'image lors du survol */
+    content: url(11.jpg); /* Changer l'image lors du survol */
   }
        body {
         overflow-x: hidden; /* Masque le défilement horizontal */
