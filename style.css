@@ -1,4 +1,4 @@
-#CV{
+a{
     text-decoration: none;}
 .skillP{
     display: flex;
@@ -182,7 +182,7 @@ html {
   /*medium screens - Laptops*/
   
   @media screen and (max-width: 1024px) {
-      #CV{
+      a{
     text-decoration: none;}
       .skillP{
         display: inline;
@@ -245,7 +245,7 @@ html {
   
   /*Small screens - tablets*/
   @media screen and (min-width:481px) and (max-width: 768px) {
-      #CV{
+      a{
     text-decoration: none;}
       .feedback{
           width:90%;
@@ -356,7 +356,7 @@ html {
   
   /*Extra small screens - phones*/
   @media screen and (max-width: 480px) {
-      #CV{
+      a{
     text-decoration: none;}
       .hero-section-main{
           background-color: rgba(22, 22, 22, 0.7);
