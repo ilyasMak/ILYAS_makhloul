@@ -275,7 +275,7 @@ html {
   
   /*Small screens - tablets*/
   @media screen and (min-width:481px) and (max-width: 768px) {
-      .product-left-side:hover img {
+      .product-left-side img {
     /* Styles au survol de la classe parent */
     /* Vous pouvez ajouter les styles souhaités ici */
     content: url(11.jpg); /* Changer l'image lors du survol */
@@ -413,7 +413,7 @@ html {
   
   /*Extra small screens - phones*/
   @media screen and (max-width: 480px) {
-       .product-left-side:hover img {
+       .product-left-side img {
     /* Styles au survol de la classe parent */
     /* Vous pouvez ajouter les styles souhaités ici */
     content: url(11.jpg); /* Changer l'image lors du survol */
