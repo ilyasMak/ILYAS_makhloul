@@ -1,4 +1,8 @@
-  .p:hover {
+  .divs{
+    width : 25% ; 
+}
+
+.p:hover {
     color: orange; /* Changer la couleur de survol ici */
     cursor: pointer; /* Changer le curseur en pointeur */
   }
@@ -272,9 +276,18 @@ html {
       }
       
   }
+  @media screen and (min-width:768px) and (max-width: 1024px) {
+  .divs{
+    width : 100% ; 
+}
+}
   
   /*Small screens - tablets*/
   @media screen and (min-width:481px) and (max-width: 768px) {
+    
+      .divs{
+    width : 100% ; 
+}
       .product-left-side img {
     /* Styles au survol de la classe parent */
     /* Vous pouvez ajouter les styles souhaités ici */
@@ -413,6 +426,9 @@ html {
   
   /*Extra small screens - phones*/
   @media screen and (max-width: 480px) {
+      .divs{
+    width : 100% ; 
+}
        .product-left-side img {
     /* Styles au survol de la classe parent */
     /* Vous pouvez ajouter les styles souhaités ici */
